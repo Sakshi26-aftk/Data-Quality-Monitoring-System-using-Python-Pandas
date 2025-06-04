@@ -20,11 +20,8 @@ Ready to be integrated with ETL pipelines or CI/CD workflows.
 
 ⚙️ Tech Stack
 Python 3.12
-
 Pandas
-
 YAML / JSON
-
 (Optional: Great Expectations / PyDeequ / Airflow / Streamlit)
 
 📁 Sample Checks Performed
@@ -39,11 +36,9 @@ Schema Validation	Column names, types, and order check
 Includes a sample titanic.csv dataset and rules_config.yaml to demonstrate live checks.
 
 🚀 How to Run
-bash
-Copy
-Edit
+[bash]
 # Step 1: Clone the repo
-git clone https://github.com/yourusername/data-quality-monitoring.git
+git clone https://github.com/Sakshi26-aftk/data-quality-monitoring.git
 cd data-quality-monitoring
 
 # Step 2: Install dependencies
@@ -51,21 +46,17 @@ pip install -r requirements.txt
 
 # Step 3: Run the checker
 python app.py
+
+
 🛠 Future Scope
 Integration with Apache Airflow DAGs
-
 Visualization of check results via Streamlit
-
 Auto-logging into PostgreSQL/MongoDB
-
 Data Drift Detection using statistical tests
 
 📌 Use Case
 This system is ideal for:
-
 Data Engineers maintaining pipeline health
-
 Analysts who depend on clean data
-
 Organizations enforcing data governance policies
 
